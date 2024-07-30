@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-size: 1.2em; /* 增大整体字体大小 */
 }
 
 .container {
@@ -19,6 +20,7 @@ body {
 
 h1 {
     color: #333;
+    font-size: 1.8em; /* 增大标题字体大小 */
 }
 
 .input-section {
@@ -28,6 +30,7 @@ h1 {
 input[type="text"] {
     padding: 0.5em;
     width: 200px;
+    font-size: 1.2em; /* 增大输入框字体大小 */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -46,6 +49,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 1.2em; /* 增大按钮字体大小 */
 }
 
 button:hover {
@@ -54,10 +58,11 @@ button:hover {
 
 .records-section {
     margin-top: 2em;
+    font-size: 1.2em; /* 增大记录区域字体大小 */
 }
 
 #overtimeMessage {
-    font-size: 1.2em;
+    font-size: 1.4em; /* 增大超时消息字体大小 */
     color: red;
     margin-top: 1em;
 }
