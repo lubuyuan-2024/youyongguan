@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 1.8em; /* 增大整体字体大小 */
+    font-size: 1.2em; /* 增大整体字体大小 */
 }
 
 .container {
@@ -26,14 +26,19 @@ h1 {
     font-size: 1.8em; /* 增大标题字体大小 */
 }
 
+label {
+    color: #333;
+    font-size: 2.4em; /* 增大手牌号字体大小 */
+}
+
 .input-section {
     margin-bottom: 1em;
 }
 
 input[type="text"] {
-    padding: 0.5em;
+    padding: 0.8em;
     width: 100%; /* 设置宽度为100%以充分利用容器的宽度 */
-    font-size: 1.8em; /* 增大输入框字体大小 */
+    font-size: 1.2em; /* 增大输入框字体大小 */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -44,8 +49,8 @@ input[type="text"]::placeholder {
 }
 
 .button-section {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* 修改为 flex 并设置方向 */
+    flex-direction: column; /* 堆叠按钮 */
     margin-bottom: 1em;
 }
 
@@ -57,7 +62,8 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1.6em; /* 增大按钮字体大小 */
+    font-size: 1.8em; /* 增大按钮字体大小 */
+    margin: 0.8em 0; /* 添加按钮间的间距 */
 }
 
 button:hover {
@@ -65,12 +71,12 @@ button:hover {
 }
 
 .records-section {
-    margin-top: 2em;
-    font-size: 1em; /* 增大记录区域字体大小 */
+    margin-top: 1.8em;
+    font-size: 1.2em; /* 增大记录区域字体大小 */
 }
 
 #overtimeMessage {
-    font-size: 1.8em; /* 增大超时消息字体大小 */
+    font-size: 2.4em; /* 增大超时消息字体大小 */
     color: red;
     margin-top: 1em;
 }
