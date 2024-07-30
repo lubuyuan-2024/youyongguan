@@ -7,15 +7,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 1.3em; /* 增大整体字体大小 */
+    font-size: 1.8em; /* 增大整体字体大小 */
 }
 
 .container {
     background-color: #ffffff;
-    padding: 2em;
+    padding: 3em; /* 增加内边距以适应更大的容器 */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 50%; /* 设置宽度为视口宽度的50%，以适应更大的屏幕 */
+    max-width: 800px; /* 设置最大宽度以防止在非常大的屏幕上变得过宽 */
+    min-width: 300px; /* 设置最小宽度以确保在小屏幕上也有足够的空间显示内容 */
 }
 
 h1 {
@@ -29,15 +32,15 @@ h1 {
 
 input[type="text"] {
     padding: 0.5em;
-    width: 200px;
-    font-size: 1.4em; /* 增大输入框字体大小 */
+    width: 100%; /* 设置宽度为100%以充分利用容器的宽度 */
+    font-size: 1.8em; /* 增大输入框字体大小 */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 /* 新增的CSS规则，用于增大输入框占位符字体大小 */
 input[type="text"]::placeholder {
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .button-section {
@@ -54,7 +57,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1.2em; /* 增大按钮字体大小 */
+    font-size: 1.6em; /* 增大按钮字体大小 */
 }
 
 button:hover {
@@ -63,11 +66,11 @@ button:hover {
 
 .records-section {
     margin-top: 2em;
-    font-size: 1.2em; /* 增大记录区域字体大小 */
+    font-size: 1em; /* 增大记录区域字体大小 */
 }
 
 #overtimeMessage {
-    font-size: 1.6em; /* 增大超时消息字体大小 */
+    font-size: 1.8em; /* 增大超时消息字体大小 */
     color: red;
     margin-top: 1em;
 }
