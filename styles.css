@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 1.2em; /* 增大整体字体大小 */
+    font-size: 1.3em; /* 增大整体字体大小 */
 }
 
 .container {
@@ -30,9 +30,14 @@ h1 {
 input[type="text"] {
     padding: 0.5em;
     width: 200px;
-    font-size: 1.2em; /* 增大输入框字体大小 */
+    font-size: 1.4em; /* 增大输入框字体大小 */
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+/* 新增的CSS规则，用于增大输入框占位符字体大小 */
+input[type="text"]::placeholder {
+    font-size: 1.4em;
 }
 
 .button-section {
@@ -62,7 +67,7 @@ button:hover {
 }
 
 #overtimeMessage {
-    font-size: 1.4em; /* 增大超时消息字体大小 */
+    font-size: 1.6em; /* 增大超时消息字体大小 */
     color: red;
     margin-top: 1em;
 }
